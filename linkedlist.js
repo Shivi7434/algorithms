@@ -63,3 +63,19 @@ LinkedList.prototype = {
 
 
 }
+function User(firstName, lastName, age, gender) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.gender = gender;
+};
+var user200 = new User('Jill', 'Robinson', 25, 'female');
+User.prototype.emailDomain = '@facebook.com'
+user1
+user200.emailDomain
+User.prototype.getEmailAddress = function() {
+    return this.firstName + this.lastName + this.emailDomain;
+}
+function() {
+    return this.firstName + this.lastName + this.emailDomain;
+}
