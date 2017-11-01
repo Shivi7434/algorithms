@@ -297,3 +297,14 @@ BST.prototype.getMaxVal = function(){
   
 console.log('MIN:', bst.getMinVal());
 console.log('MAX:', bst.getMaxVal());
+
+
+function Count(leaf){
+  let count =1;
+  if (leaf === null) return 0;
+  if (leaf.left !== null)
+    count += count(leaf.left);
+  else(leaf.right !== null)
+    count += count(leaf.right);
+  return count;
+}
