@@ -63,3 +63,28 @@ for (var x in num_arr){  //gives back index
 for (var x of num_arr){ //gives back values
   console.log(x)
 }
+
+//
+interface MyNodeInterface {
+  val: number;
+  _priv: number;
+  doSomething(): void;
+}
+
+class MyNode implements MyNodeInterface {
+  val: 
+  _priv:
+
+  constructor(val :number) {
+    this.val = 0;
+    this.val = val;
+  }
+
+  doSomething (){
+    this._priv = 10;
+  }
+}
+
+let MyNodeInterface: MyNode = new MyNode (1);
+console.log(MyNodeInterface.val);
+
