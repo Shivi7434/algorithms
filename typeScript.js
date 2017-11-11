@@ -21,4 +21,29 @@ interface SomethingInterface {
     saySomething(): string{
       return "something";
     }
-  }
+  
+
+    // Another Example
+
+    interface AnimalInterface {
+        breathe(): void;
+        eat(): void;
+      }
+      
+      
+      class Animal implements AnimalInterface {
+        breathe(): void {
+          console.log('breathing');
+        }
+      
+        eat(): void {
+          console.log("munch munch");
+        }
+      }
+      
+      class Horse extends Animal {
+        gallop(): void {
+          console.log("I'm runnin Jennay!")
+            
+          }
+      }  
