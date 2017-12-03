@@ -12,3 +12,5 @@ boolean primeNaive(int n) {
     }    
     return true;
 }
+
+// some more randon algos
