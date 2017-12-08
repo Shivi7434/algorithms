@@ -12,7 +12,7 @@ LinkedList.prototype = {
         if (!this.head) {
             this.head=node;
             this.tail = node;
-            this.lenght++;
+            this.length++;
 
             return node;
         }
