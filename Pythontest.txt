@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+// second question answer//
+s = "asldaksldkalskdla"
+dict = {}
+for l in s:
+ if l not in dict.keys():
+  dict[l] = 1
+ else:
+  dict[l] += 1
+
+print (dict)
+
+
+//third question's answer//
+
+def is_power(n):
+    n = n/2
+    if n == 2:
+        return True
+    elif n > 2:
+        return is_power(n)
+    else:
+        return False
