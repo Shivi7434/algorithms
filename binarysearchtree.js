@@ -48,7 +48,7 @@ function BST(value) {
   console.log(bst.right.right);
 
   
- // contains method
+ // contains method //
  
  BST.prototype.contains = function (value) {
     if (value === this.value) return true
