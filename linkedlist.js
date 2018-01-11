@@ -90,7 +90,7 @@ function LinkedList() {
     this.prev = prev;
   }
   
-//   var LL = new LinkedList();    will bring down the value named in func
+   //var LL = new LinkedList();    will bring down the value named in func
   var userList = new LinkedList();
   var toDoList = new LinkedList ();
   
