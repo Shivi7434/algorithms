@@ -34,7 +34,7 @@ function log(array) {
    addAndLog(['A', 'B', 'C', 'D', 'E']);  // 25 pairs logged out
     
     
-   // Logarithmic runtime - Big O Notation: O (log n)
+   // Logarithmic runtime -Big O Notation: O (log n)
    function binarySearch(array, key) {
        var low = 0;
        var high = array.length - 1;
