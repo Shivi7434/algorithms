@@ -1,4 +1,4 @@
-boolean isUniqueChars(String str) {
+boolean isUniqueChar(String str) {
     if (str.length() > 128) return false;
 
     boolean[] char_set = new boolean[128];
