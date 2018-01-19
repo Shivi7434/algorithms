@@ -5,6 +5,7 @@ function LinkedList(){
     this.head= null;
     this.tail= null;
 }
+
 LinkedList.prototype = {
     add: function(value) {
         var node = new Node(value);
