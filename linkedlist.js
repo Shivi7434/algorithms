@@ -40,6 +40,7 @@ LinkedList.prototype = {
         this._length ++;
         return node;
     },
+
     insert: function(index,value){
         var currentNode = this.head;
         var node = new Node(value);
@@ -64,6 +65,7 @@ LinkedList.prototype = {
 
 
 }
+
 function User(firstName, lastName, age, gender) {
     this.firstName = firstName;
     this.lastName = lastName;
