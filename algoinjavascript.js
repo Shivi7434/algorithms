@@ -36,6 +36,31 @@ function harmlessRansomNote (noteText, magazineText){
 
 harmlessRansomNote('','this is all the magazine text in the magazine ');
 ////////////////////////////////////
+// to check whether magazine has same words as note// test ran true//
+function harmlessRansomNote (noteText, magazineText){
+  var noteArr = noteText.split(' ');
+  var magazineArr = magazineText.split(' ');
+  var magazineObj = {};
+  
+  magazineArr.forEach(word => {
+    if (!magazineObj[word]) magazineObj[word] = 0;
+    magazineObj[word]++;
+  });
+  
+  var noteIsPossible = true;
+  noteArr.forEach(word => {
+      if (magazineObj[word]) {
+        magazineObj[word] --;
+        if (magazineObj[word] < 0) noteIsPossible = false;
+        
+      }
+      
+      else noteIsPossible = false;
+  });
 
+  return noteIsPossible;
+  
+}
+harmlessRansomNote('this is a secret note for you from a secret admirer','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem from secret Ipsum has been the industry standard dummy text ever since the 1500s, when an admirer for you note secret is a this unknown printer took a galley of type and scrambled it to make a type specimen book');
 
   
