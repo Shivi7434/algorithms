@@ -63,4 +63,23 @@ function harmlessRansomNote (noteText, magazineText){
 }
 harmlessRansomNote('this is a secret note for you from a secret admirer','Lorem from secret Ipsum has been the industry standard dummy text ever since the 1500s, when an admirer for you note secret is a this unknown printer took a galley of type and scrambled it to make a type specimen book');
 
+////////////////////////////
+/// is palindrome//// returns true////
+function isPalindrome (string) {
+  string = string.toLowerCase();
+  var charactersArr = string.split('');
+  var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
   
+  
+  var lettersArr = [];
+  charactersArr.forEach(char => {
+    if(validCharacters.indexOf(char) > -1) lettersArr.push(char);
+  });
+  
+  if (lettersArr.join('') === lettersArr.reverse().join('')) return true;
+  else return false;
+}
+
+console.log(isPalindrome("Madam I'm Adam"));
+
+///////////////////////////////
