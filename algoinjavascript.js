@@ -61,6 +61,6 @@ function harmlessRansomNote (noteText, magazineText){
   return noteIsPossible;
   
 }
-harmlessRansomNote('this is a secret note for you from a secret admirer','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem from secret Ipsum has been the industry standard dummy text ever since the 1500s, when an admirer for you note secret is a this unknown printer took a galley of type and scrambled it to make a type specimen book');
+harmlessRansomNote('this is a secret note for you from a secret admirer','Lorem from secret Ipsum has been the industry standard dummy text ever since the 1500s, when an admirer for you note secret is a this unknown printer took a galley of type and scrambled it to make a type specimen book');
 
   
