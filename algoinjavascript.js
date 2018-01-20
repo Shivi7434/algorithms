@@ -7,6 +7,18 @@ function fizzBuzz(num){
     }
   }
   fizzBuzz(20);
---------------------------
----------------------------------
+////////////////////////////////
+function addandLog(array){
+  for (var i = 0; i < array.length;i++){
+    for (var j =0; j < array.length; j++){
+      console.log(array[i] + array[j]);
+    }
+  }
+}
+
+addandLog (['A','B','C']);
+addandLog (['A','D','C','B']);
+
+/////////////////////////
+
   
