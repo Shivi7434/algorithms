@@ -65,6 +65,7 @@ harmlessRansomNote('this is a secret note for you from a secret admirer','Lorem 
 
 ////////////////////////////
 /// is palindrome//// returns true////
+
 function isPalindrome (string) {
   string = string.toLowerCase();
   var charactersArr = string.split('');
