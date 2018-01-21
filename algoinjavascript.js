@@ -123,6 +123,6 @@ function reverseWords(string) {
     }
     reversedWordsArr.push(reversedWord);
   });
-  return reversedWordsArr.join('');
+  return reversedWordsArr.join(' ');
 }
 reverseWords('There is a day');
