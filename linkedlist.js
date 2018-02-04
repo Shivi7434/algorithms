@@ -64,6 +64,10 @@ LinkedList.prototype = {
     }
 
 
+
+    
+
+
 }
 function User(firstName, lastName, age, gender) {
     this.firstName = firstName;

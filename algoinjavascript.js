@@ -71,6 +71,8 @@ function isPalindrome (string) {
   var charactersArr = string.split('');
   var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
   
+
+  
   
   var lettersArr = [];
   charactersArr.forEach(char => {
