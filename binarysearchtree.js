@@ -45,6 +45,9 @@ function BST(value) {
   bst.insert(105);
   bst.insert(10);
   bst.insert(50);
+
+
+  console.log(bst.contains(15));
   
   console.log(bst.right.right);
 
