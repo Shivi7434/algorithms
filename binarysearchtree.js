@@ -47,7 +47,15 @@ function BST(value) {
   bst.insert(50);
 
 
-  console.log(bst.contains(15));
+ BST.prototype.depthFirstTraversal(iteratorFunc) {
+   if(this.left)this.left.depthFirstTraversal(iteratorFunc);
+   iteratorFunc(this.value);
+   if(this.right)this.right.depthFirstTraversal(iteratorFunc)
+ };
+ 
+ 
+
+ }
   
   console.log(bst.right.right);
 
