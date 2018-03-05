@@ -46,18 +46,20 @@ function BST(value) {
   bst.insert(10);
   bst.insert(50);
 
+  console.log(bst.right.right);
 
- BST.prototype.depthFirstTraversal(iteratorFunc) {
-   if(this.left)this.left.depthFirstTraversal(iteratorFunc);
-   iteratorFunc(this.value);
-   if(this.right)this.right.depthFirstTraversal(iteratorFunc)
+
+
+ BST.prototype.depthFirstTraversal(iteratorFunc, order) {    //toching note in a order - leftside first
+   if(this.left)this.left.depthFirstTraversal(iteratorFunc, order);
+   if ( order === 'in-order')iteratorFunc(this.value);
+   if(this.right)this.right.depthFirstTraversal(iteratorFunc, order);
  };
  
+ bst.depthFirstTraversal(log, 'in-order');
  
-
- }
   
-  console.log(bst.right.right);
+ 
 
   
  // contains method //
@@ -320,3 +322,4 @@ function Count(leaf){
     count += count(leaf.right);
   return count;
 }
+
