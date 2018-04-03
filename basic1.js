@@ -78,4 +78,3 @@ function magic_multiply(x,y){
   magic_multiply("Brendo",4);
 
 
-
