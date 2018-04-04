@@ -67,7 +67,6 @@ function magic_multiply(x,y){
 }
 magic_multiply(7,"three");
 
-
 function magic_multiply(x,y){
     string = "";
     for (var i = 0;i < y; i++){
