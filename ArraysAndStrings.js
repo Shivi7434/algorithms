@@ -10,6 +10,9 @@ boolean isUniqueChar(String str) {
 
         
         char_set[val] = true;    
+ 
+ 
+ 
     }
     return true;
 }
