@@ -19,6 +19,8 @@ function addandLog(array){
 addandLog (['A','B','C']);
 addandLog (['A','D','C','B']);
 
+
+
 /////////////////////////
 // to check number of times word has been repeated//
 function harmlessRansomNote (noteText, magazineText){
