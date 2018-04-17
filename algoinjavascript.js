@@ -130,3 +130,12 @@ function reverseWords(string) {
   return reversedWordsArr.join(' ');
 }
 reverseWords('There is a day');
+/////////////////////////////////////////////
+function addandLog(array){
+  for (var i = 0; i < array.length;i++){
+    console.log(array[i] + array[i]);
+      
+    }
+}
+
+addandLog ([1 , 2 , 3]);
