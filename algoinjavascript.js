@@ -139,3 +139,4 @@ function addandLog(array){
 }
 
 addandLog ([1 , 2 , 3]);
+
